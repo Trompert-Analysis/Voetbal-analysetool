@@ -1,20 +1,18 @@
-from fastapi.middleware.cors import CORSMiddleware
-
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import pandas as pd
 
 app = FastAPI()
 
+# CORS-instellingen toevoegen vóór je routes
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # of specifieker: ["https://voetbal-analysetool-j6bg.vercel.app"]
+    allow_origins=["*"],  # Of vervang "*" door je Vercel-URL voor extra veiligheid
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-app = FastAPI()
 
 class InputData(BaseModel):
     speler_id: int
@@ -23,8 +21,9 @@ class InputData(BaseModel):
 
 @app.post("/matchscore")
 def bereken_matchscore(data: InputData):
-    # Dummy matchscore
+    # Dummy response
     return {
         "advies": "Je past het best op de positie CAM – 10",
         "matchscore": 74.2
     }
+
