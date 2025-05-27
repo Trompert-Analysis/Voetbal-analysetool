@@ -1,34 +1,21 @@
-import React, { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import Speler from './pages/Speler';
+import Analyse from './pages/Analyse';
+import Team from './pages/Team';
 
 function App() {
-  const [naam, setNaam] = useState('');
-  const [score, setScore] = useState(null);
-
-  const berekenScore = async () => {
-    const response = await fetch('https://voetbal-analysetool.onrender.com/matchscore', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ speler_id: 1, beoordeling: {}, zelfbeoordeling: {} })
-    });
-    const data = await response.json();
-    setScore(data.advies || "Geen score ontvangen");
-  };
-
   return (
-    <div className="p-8 font-sans">
-      <h1 className="text-2xl font-bold mb-4">Voetbal Analysetool MVP</h1>
-      <input
-        type="text"
-        placeholder="Naam speler"
-        value={naam}
-        onChange={(e) => setNaam(e.target.value)}
-        className="border p-2 mr-2"
-      />
-      <button onClick={berekenScore} className="bg-blue-600 text-white px-4 py-2 rounded">
-        Bereken Score
-      </button>
-      {score && <div className="mt-4 text-green-700 font-medium">Advies: {score}</div>}
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/speler" element={<Speler />} />
+        <Route path="/analyse" element={<Analyse />} />
+        <Route path="/team" element={<Team />} />
+      </Routes>
+    </Router>
   );
 }
 
