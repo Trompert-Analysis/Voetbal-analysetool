@@ -5,7 +5,7 @@ function App() {
   const [score, setScore] = useState(null);
 
   const berekenScore = async () => {
-    const response = await fetch('http://localhost:8000/matchscore', {
+    const response = await fetch('https://voetbal-analysetool.onrender.com/matchscore', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ speler_id: 1, beoordeling: {}, zelfbeoordeling: {} })
