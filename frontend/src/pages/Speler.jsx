@@ -25,12 +25,11 @@ function Speler() {
   };
 
   const secties = {
-    "Mentale vaaardigheden": ["Anticipatie", "Besluitvorming", "Creativiteit", "Leiderschap", "Spelinzicht"],
-    "Technische vaardigheden": ["1-tegen-1 duel", "Aanvallende loopacties", "Afstandsschot", "Dribbelen", "Koppen", "Passing", "Lange bal", "Positionering", "Pressing zetten", "Schotkracht", "Schotnauwkeurigheid", "Tackelen", "Traptechniek", "Voorzetten"],
     "Fysiek": ["snelheid", "Sterkte (fysiek)", "uithoudingsvermogen", "Wendbaarheid", "sprongkracht"],
-    "Mentaal": ["concentratie", "zelfvertrouwen", "doorzettingsvermogen", "weerbaarheid", "coachbaarheid"],
-    "Teamspel": ["communicatie", "samenwerken", "leiding nemen", "rolacceptatie", "discipline"],
-    "Keeperskwaliteiten": ["reflexen", "duiken", "uitkomen", "hoge ballen", "coachen van verdediging"]
+    "Technische vaardigheden": ["1-tegen-1 duel", "Aanvallende loopacties", "Afstandsschot", "Dribbelen", "Koppen", "Passing", "Lange bal", "Positionering", "Pressing zetten", "Schotkracht", "Schotnauwkeurigheid", "Tackelen", "Traptechniek", "Voorzetten"],
+    "Mentale vaaardigheden": ["Anticipatie", "Besluitvorming", "Creativiteit", "Leiderschap", "Spelinzicht"],
+    "Overige vaardigheden": ["Balverovering", "Buitenspelval gebruiken", "Geschikte voet (links)", "Geschikte voet (rechts)", "Geschikte voet (beide)"],
+    "Keeperskwaliteiten": ["Reflexen", "Keeperstechniek", "Uitkomen", "Redding bij 1-tegen-1", "coaching vanuit achteruit"]
   };
 
   return (
