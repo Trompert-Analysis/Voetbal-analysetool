@@ -25,7 +25,7 @@ function Speler() {
   };
 
   const secties = {
-    "Techniek": ["balbehandeling", "passing", "traptechniek", "aanname", "dribbelen", "schieten", "koppen"],
+    "Mentale vaaardigheden": ["balbehandeling", "passing", "traptechniek", "aanname", "dribbelen", "schieten", "koppen"],
     "Tactisch Inzicht": ["positie kiezen", "overzicht", "spel lezen", "anticiperen", "meeverdedigen"],
     "Fysiek": ["snelheid", "kracht", "uithoudingsvermogen", "wendbaarheid", "sprongkracht"],
     "Mentaal": ["concentratie", "zelfvertrouwen", "doorzettingsvermogen", "weerbaarheid", "coachbaarheid"],
