@@ -26,8 +26,8 @@ function Speler() {
 
   const secties = {
     "Mentale vaaardigheden": ["Anticipatie", "Besluitvorming", "Creativiteit", "Leiderschap", "Spelinzicht"],
-    "Tactisch Inzicht": ["positie kiezen", "overzicht", "spel lezen", "anticiperen", "meeverdedigen"],
-    "Fysiek": ["snelheid", "kracht", "uithoudingsvermogen", "wendbaarheid", "sprongkracht"],
+    "Technische vaardigheden": ["1-tegen-1 duel", "Aanvallende loopacties", "Afstandsschot", "Dribbelen", "Koppen", "Passing", "Lange bal", "Positionering", "Pressing zetten", "Schotkracht", "Schotnauwkeurigheid", "Tackelen", "Traptechniek", "Voorzetten"],
+    "Fysiek": ["snelheid", "Sterkte (fysiek)", "uithoudingsvermogen", "Wendbaarheid", "sprongkracht"],
     "Mentaal": ["concentratie", "zelfvertrouwen", "doorzettingsvermogen", "weerbaarheid", "coachbaarheid"],
     "Teamspel": ["communicatie", "samenwerken", "leiding nemen", "rolacceptatie", "discipline"],
     "Keeperskwaliteiten": ["reflexen", "duiken", "uitkomen", "hoge ballen", "coachen van verdediging"]
