@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Analyse() {
   return (
     <div className="p-4">

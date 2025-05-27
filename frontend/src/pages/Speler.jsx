@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Speler() {
   return (
     <div className="p-4">
