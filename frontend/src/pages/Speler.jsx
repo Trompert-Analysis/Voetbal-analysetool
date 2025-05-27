@@ -33,25 +33,56 @@ function Speler() {
   return (
     <div className="p-4 max-w-xl mx-auto">
       <h1 className="text-2xl font-bold mb-4">Spelerbeoordeling</h1>
-      <form onSubmit={handleSubmit} className="space-y-4">
-        <input type="text" placeholder="Naam speler" value={naam} onChange={(e) => setNaam(e.target.value)} className="w-full p-2 border" />
+      <form onSubmit={handleSubmit} className="space-y-6">
+        <input
+          type="text"
+          placeholder="Naam speler"
+          value={naam}
+          onChange={(e) => setNaam(e.target.value)}
+          className="w-full p-2 border"
+        />
 
-        {['techniek', 'inzicht', 'positionering', 'snelheid', 'communicatie'].map((vaardigheid) => (
-          <div key={vaardigheid}>
-            <label className="block mb-1 capitalize">{vaardigheid}</label>
-            <input
-              type="number"
-              name={vaardigheid}
-              value={scores[vaardigheid]}
-              onChange={handleChange}
-              min="0"
-              max="100"
-              className="w-full p-2 border"
-            />
-          </div>
-        ))}
+        {/* Sectie 1 */}
+        <div>
+          <h2 className="text-xl font-semibold mb-2">Techniek & Inzicht</h2>
+          {['techniek', 'inzicht'].map((vaardigheid) => (
+            <div key={vaardigheid} className="mb-3">
+              <label className="block mb-1 capitalize">{vaardigheid}</label>
+              <input
+                type="number"
+                name={vaardigheid}
+                value={scores[vaardigheid]}
+                onChange={handleChange}
+                min="0"
+                max="100"
+                className="w-full p-2 border"
+              />
+            </div>
+          ))}
+        </div>
 
-        <button type="submit" className="bg-blue-600 text-white px-4 py-2 rounded">Bereken Score</button>
+        {/* Sectie 2 */}
+        <div>
+          <h2 className="text-xl font-semibold mb-2">Spelinzicht & Communicatie</h2>
+          {['positionering', 'snelheid', 'communicatie'].map((vaardigheid) => (
+            <div key={vaardigheid} className="mb-3">
+              <label className="block mb-1 capitalize">{vaardigheid}</label>
+              <input
+                type="number"
+                name={vaardigheid}
+                value={scores[vaardigheid]}
+                onChange={handleChange}
+                min="0"
+                max="100"
+                className="w-full p-2 border"
+              />
+            </div>
+          ))}
+        </div>
+
+        <button type="submit" className="bg-blue-600 text-white px-4 py-2 rounded">
+          Bereken Score
+        </button>
       </form>
 
       {advies && (
@@ -65,3 +96,4 @@ function Speler() {
 }
 
 export default Speler;
+
