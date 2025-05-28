@@ -1,12 +1,9 @@
 
-import json
-from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi import FastAPI
 from pydantic import BaseModel
-
-# Laad profielen
-with open("profielen_data.json", "r", encoding="utf-8") as f:
-    profielen = json.load(f)
+import pandas as pd
+import json
 
 app = FastAPI()
 
@@ -18,6 +15,9 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+with open("profielen_data.json", "r", encoding="utf-8") as f:
+    profielen_data = json.load(f)
+
 class InputData(BaseModel):
     speler_id: int
     beoordeling: dict
@@ -25,22 +25,36 @@ class InputData(BaseModel):
 
 @app.post("/matchscore")
 def bereken_matchscore(data: InputData):
-    input_scores = data.beoordeling
+    gemiddelde_scores = {}
+    for vaardigheid in data.beoordeling:
+        try:
+            gemiddelde_scores[vaardigheid] = (float(data.beoordeling[vaardigheid]) + float(data.zelfbeoordeling[vaardigheid])) / 2
+        except:
+            gemiddelde_scores[vaardigheid] = 0
 
-    matchresultaten = []
-    for profiel, wegingen in profielen.items():
-        totaal_score = 0
+    profiel_scores = []
+    for profiel in profielen_data:
+        score = 0
         totaal_gewicht = 0
-        for vaardigheid, gewicht in wegingen.items():
-            speler_score = input_scores.get(vaardigheid)
-            if speler_score is not None:
-                totaal_score += float(speler_score) * gewicht
-                totaal_gewicht += gewicht
-        matchscore = round(totaal_score / totaal_gewicht, 2) if totaal_gewicht > 0 else 0
-        matchresultaten.append((profiel, matchscore))
+        for vaardigheid, gewicht in profiel["vaardigheden"].items():
+            vaardigheid_score = gemiddelde_scores.get(vaardigheid, 0)
+            score += vaardigheid_score * gewicht
+            totaal_gewicht += gewicht
+        matchscore = score / totaal_gewicht if totaal_gewicht else 0
+        profiel_scores.append({"profiel": profiel["profiel"], "score": round(matchscore, 2)})
 
-    best_match = max(matchresultaten, key=lambda x: x[1])
+    profiel_scores.sort(key=lambda x: x["score"], reverse=True)
+    top_3 = profiel_scores[:3]
+    bottom_3 = profiel_scores[-3:]
+
+    advies = (
+        "Top 3 best passende profielen:\n" +
+        "\n".join([f"{p['profiel']}: {p['score']}" for p in top_3]) +
+        "\n\nLaagst scorende 3 profielen:\n" +
+        "\n".join([f"{p['profiel']}: {p['score']}" for p in bottom_3])
+    )
+
     return {
-        "advies": f"Je past het best op de positie {best_match[0]}",
-        "matchscore": best_match[1]
+        "advies": advies,
+        "matchscore": top_3[0]["score"]
     }
