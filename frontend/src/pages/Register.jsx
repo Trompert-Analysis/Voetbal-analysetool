@@ -23,11 +23,13 @@ const Register = () => {
     const payload = {
       email: formData.email,
       password: formData.password,
-      role: formData.role,
+      role: formData.role
     };
 
     if (formData.name) payload.name = formData.name;
-    if (formData.role !== 'coach') payload.teamcode = formData.teamcode;
+    if (formData.role !== 'coach' && formData.teamcode) {
+      payload.teamcode = formData.teamcode;
+    }
 
     try {
       const res = await fetch('https://voetbal-analysetool.onrender.com/register', {
@@ -36,16 +38,22 @@ const Register = () => {
         body: JSON.stringify(payload),
       });
 
-      if (!res.ok) throw new Error('Registratie mislukt');
-
       const data = await res.json();
-      setMessage('Registratie succesvol! Je kunt nu inloggen.');
+
+      if (!res.ok) {
+        const errorMsg = data.detail || 'Registratie mislukt.';
+        throw new Error(errorMsg);
+      }
+
+      setMessage('✅ Registratie succesvol! Je kunt nu inloggen.');
     } catch (err) {
-      setMessage(err.message || 'Er ging iets mis.');
+      setMessage(`❌ ${err.message}`);
     }
 
     setLoading(false);
   };
+
+  const showTeamcode = formData.role === 'speler' || formData.role === 'beoordelaar';
 
   return (
     <div className="max-w-md mx-auto p-4 bg-white shadow rounded mt-8">
@@ -92,7 +100,7 @@ const Register = () => {
           <option value="beoordelaar">Beoordelaar</option>
         </select>
 
-        {formData.role !== 'coach' && (
+        {showTeamcode && (
           <input
             type="text"
             name="teamcode"
@@ -113,9 +121,14 @@ const Register = () => {
         </button>
       </form>
 
-      {message && <p className="mt-4 text-center text-sm text-red-600">{message}</p>}
+      {message && (
+        <p className="mt-4 text-center text-sm" style={{ color: message.startsWith('✅') ? 'green' : 'red' }}>
+          {message}
+        </p>
+      )}
     </div>
   );
 };
 
 export default Register;
+
