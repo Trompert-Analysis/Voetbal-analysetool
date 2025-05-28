@@ -30,7 +30,7 @@ const Register = () => {
     if (formData.role !== 'coach') payload.teamcode = formData.teamcode;
 
     try {
-      const res = await fetch('https://<jouw-backend-url>/register', {
+      const res = await fetch('https://voetbal-analysetool.onrender.com/register', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
