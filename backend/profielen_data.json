@@ -114,7 +114,7 @@
     }
   },
   "Rechter CM": {
-    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "beschrijving": "De rechter centrale middenvelder is de motor op het middenveld met een balans tussen aanvallende impulsen en verdedigend werk. Hij ondersteunt de opbouw, durft lijnen uit te zetten en anticipeert op het spelverloop. Met een goed gevoel voor ruimte en timing is deze speler essentieel in de transitie tussen verdediging en aanval.",
     "vaardigheden": {
       "Spelinzicht": 0.14,
       "Positionering": 0.1,
@@ -129,7 +129,7 @@
     }
   },
   "Linksbuiten": {
-    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "beschrijving": "De linksbuiten is een creatieve en dreigende aanvaller die vanaf de flank voortdurend gevaar sticht. Hij gebruikt zijn snelheid en dribbelvaardigheden om tegenstanders uit te spelen en zoekt vaak de één-tegen-één-duels op. Met een goede voorzet of een geplaatste actie naar binnen is hij in staat kansen te creëren en zelf af te ronden.",
     "vaardigheden": {
       "Snelheid": 0.15,
       "Dribbelen": 0.13,
@@ -145,7 +145,7 @@
     }
   },
   "Rechtsbuiten": {
-    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "beschrijving": "De rechtsbuiten is een dynamische aanvaller die voor diepte en breedte zorgt op de rechterflank. Hij speelt vaak op intuïtie, zoekt de achterlijn op of snijdt naar binnen om gevaar te stichten. Deze speler is vaak betrokken bij het versnellen van het spel en brengt variatie in de aanval met acties en voorzetten.",
     "vaardigheden": {
       "Snelheid": 0.15,
       "Dribbelen": 0.13,
@@ -161,7 +161,7 @@
     }
   },
   "Spits": {
-    "beschrijving": "Een doelgerichte spits met een sterk schot, goede positionering en fysieke kracht in de zestien.",
+    "beschrijving": "De spits is het eindstation van de aanval en moet koelbloedig zijn in de afronding. Hij positioneert zich slim in het strafschopgebied, zoekt constant naar ruimte en is in staat om met beide voeten en het hoofd af te ronden. Deze speler jaagt op kansen, houdt verdedigers bezig en heeft een neusje voor doelpunten.",
     "vaardigheden": {
       "Schotkracht": 0.15,
       "Schotnauwkeurigheid": 0.14,
@@ -177,7 +177,7 @@
     }
   },
   "Linksback - Aanvallend": {
-    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "beschrijving": "De aanvallende linksback combineert verdedigende degelijkheid met aanvallende flair. Hij heeft het loopvermogen om constant de flank te bestrijken, ondersteunt de aanval met overlap-acties en levert voorzetten af vanaf de zijkant. Tegelijkertijd weet hij zijn verdedigende taak niet te verwaarlozen en schakelt snel om bij balverlies.",
     "vaardigheden": {
       "Snelheid": 0.15,
       "Voorzetten": 0.12,
@@ -193,7 +193,7 @@
     }
   },
   "Linksback - Verdedigend": {
-    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "beschrijving": "De verdedigende linksback is primair gericht op het neutraliseren van aanvallende dreiging over zijn flank. Hij is positioneel sterk, laat zich moeilijk passeren en weet wanneer hij stevig in moet grijpen. Met discipline en focus vormt hij een betrouwbaar slot op de deur aan de linkerkant.",
     "vaardigheden": {
       "Tackelen": 0.15,
       "Positionering": 0.14,
@@ -208,7 +208,7 @@
     }
   },
   "Linksback - Inverted": {
-    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "beschrijving": "De inverted linksback wijkt af van het traditionele flankenspel en zoekt vaker het centrum op om het spel van binnenuit te verdelen. Deze speler beschikt over een goed inzicht, durft risico’s te nemen in zijn passing en ondersteunt de opbouw als een extra middenvelder.",
     "vaardigheden": {
       "Passing": 0.11,
       "Spelinzicht": 0.12,
@@ -222,7 +222,7 @@
     }
   },
   "Rechtsback - Aanvallend": {
-    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "beschrijving": "De aanvallende rechtsback is een energieke speler die voortdurend opkomt langs de zijlijn om aanvallen te ondersteunen. Hij is snel, technisch vaardig en levert scherpe voorzetten af. Hij speelt vaak een sleutelrol in het creëren van overtalsituaties op de flank.",
     "vaardigheden": {
       "Snelheid": 0.15,
       "Voorzetten": 0.12,
@@ -238,7 +238,7 @@
     }
   },
   "Rechtsback - Verdedigend": {
-    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "beschrijving": "De verdedigende rechtsback is gefocust op het uitschakelen van tegenstanders en houdt zijn positie strak. Hij grijpt in wanneer nodig, leest het spel goed en is betrouwbaar in één-tegen-één situaties. Deze speler is een rustige kracht in de verdediging.",
     "vaardigheden": {
       "Tackelen": 0.15,
       "Positionering": 0.14,
@@ -253,7 +253,7 @@
     }
   },
   "Rechtsback - Inverted": {
-    "beschrijving": "Een technisch vaardige back die vaak naar binnen trekt en bijdraagt aan de opbouw met passing en inzicht.",
+    "beschrijving": "De inverted rechtsback beweegt zich naar binnen in plaats van naar buiten, vaak om als extra middenvelder te fungeren in balbezit. Hij is technisch en tactisch onderlegd, met het vermogen om het spel naar zich toe te trekken en te controleren vanuit het centrum.",
     "vaardigheden": {
       "Passing": 0.11,
       "Spelinzicht": 0.12,
@@ -267,7 +267,7 @@
     }
   },
   "CV - Stopper": {
-    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "beschrijving": "De stopper is een fysiek sterke verdediger die het duel niet schuwt. Hij grijpt in waar nodig, wint zijn duels en zorgt ervoor dat aanvallers geen ruimte krijgen. Deze speler is het best wanneer hij kort op zijn man zit en defensieve zekerheid biedt.",
     "vaardigheden": {
       "Tackelen": 0.16,
       "Positionering": 0.14,
@@ -281,7 +281,7 @@
     }
   },
   "CV - Bouwer": {
-    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "beschrijving": "De bouwer is een centrale verdediger met opbouwende kwaliteiten. Hij blijft kalm onder druk en weet de juiste passes te geven om het spel van achteruit te starten. Deze speler combineert verdedigend inzicht met een sterke traptechniek.",
     "vaardigheden": {
       "Passing": 0.12,
       "Spelinzicht": 0.12,
@@ -294,7 +294,7 @@
     }
   },
   "CDM - Playmaker": {
-    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "beschrijving": "De CDM-playmaker is het brein van het team in de verdedigende zone. Hij leest het spel uitstekend, onderschept ballen en verdeelt het spel met slimme passes. Hij is altijd aanspeelbaar en houdt het speltempo hoog met een goed overzicht en technisch vermogen.",
     "vaardigheden": {
       "Spelinzicht": 0.16,
       "Passing": 0.13,
