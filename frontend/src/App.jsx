@@ -1,25 +1,23 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Home from './pages/Home';
-import Speler from './pages/Speler';
-import Analyse from './pages/Analyse';
-import Team from './pages/Team';
-import Register from './pages/Register';
-import Login from './pages/Login';
-import Dashboard from './pages/Dashboard';
-import ProtectedRoute from './components/ProtectedRoute';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ProtectedRoute from "./components/ProtectedRoute";
+import Speler from "./pages/Speler";
+import Analyse from "./pages/Analyse";
+import Team from "./pages/Team";
+import Dashboard from "./pages/Dashboard";
+import Register from "./pages/Register";
+import Login from "./pages/Login";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Register" element={<Register />} />
-        <Route path="/Login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/login" element={<Login />} />
         <Route
-          path="/Speler"
+          path="/speler"
           element={
             <ProtectedRoute>
               <Speler />
@@ -43,7 +41,7 @@ function App() {
           }
         />
         <Route
-          path="/Dashboard"
+          path="/dashboard"
           element={
             <ProtectedRoute>
               <Dashboard />
