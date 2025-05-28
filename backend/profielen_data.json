@@ -1,404 +1,509 @@
 {
   "Keeper": {
-    "Redding bij 1-tegen-1": 0.2,
-    "Wendbaarheid": 0.2,
-    "Positionering": 0.15,
-    "Keeperstechniek": 0.1,
-    "Uitkomen": 0.1,
-    "Traptechniek": 0.08,
-    "Coaching vanuit achteruit": 0.07,
-    "Leiderschap": 0.05,
-    "Anticipatie": 0.03,
-    "Spelinzicht": 0.02
+    "beschrijving": "Een allround doelman die uitblinkt in reflexen, één-tegen-één situaties en coaching vanuit achteruit.",
+    "vaardigheden": {
+      "Redding bij 1-tegen-1": 0.2,
+      "Wendbaarheid": 0.2,
+      "Positionering": 0.15,
+      "Keeperstechniek": 0.1,
+      "Uitkomen": 0.1,
+      "Traptechniek": 0.08,
+      "Coaching vanuit achteruit": 0.07,
+      "Leiderschap": 0.05,
+      "Anticipatie": 0.03,
+      "Spelinzicht": 0.02
+    }
   },
   "Linksback": {
-    "Snelheid": 0.16,
-    "Tackelen": 0.13,
-    "Positionering": 0.11,
-    "Uithoudingsvermogen": 0.09,
-    "Voorzetten": 0.09,
-    "Dribbelen": 0.07,
-    "Anticipatie": 0.06,
-    "1-tegen-1 duel": 0.05,
-    "Pressing zetten": 0.04,
-    "Spelinzicht": 0.03,
-    "Coaching vanuit achteruit": 0.03,
-    "Passing": 0.02,
-    "Geschikte voet (links)": 0.12
+    "beschrijving": "Een dynamische vleugelverdediger die sterk is in het neerzetten van pressing, tackles en voorzetten met het linkerbeen.",
+    "vaardigheden": {
+      "Snelheid": 0.16,
+      "Tackelen": 0.13,
+      "Positionering": 0.11,
+      "Uithoudingsvermogen": 0.09,
+      "Voorzetten": 0.09,
+      "Dribbelen": 0.07,
+      "Anticipatie": 0.06,
+      "1-tegen-1 duel": 0.05,
+      "Pressing zetten": 0.04,
+      "Spelinzicht": 0.03,
+      "Coaching vanuit achteruit": 0.03,
+      "Passing": 0.02,
+      "Geschikte voet (links)": 0.12
+    }
   },
   "Rechtsback": {
-    "Snelheid": 0.15,
-    "Tackelen": 0.14,
-    "Positionering": 0.11,
-    "Uithoudingsvermogen": 0.09,
-    "Voorzetten": 0.08,
-    "Anticipatie": 0.09,
-    "Dribbelen": 0.06,
-    "1-tegen-1 duel": 0.05,
-    "Pressing zetten": 0.05,
-    "Spelinzicht": 0.05,
-    "Coaching vanuit achteruit": 0.04,
-    "Passing": 0.02,
-    "Geschikte voet (rechts)": 0.12
+    "beschrijving": "Een snelle en wendbare back met sterke pressing en verdedigende kwaliteiten op de rechterflank.",
+    "vaardigheden": {
+      "Snelheid": 0.15,
+      "Tackelen": 0.14,
+      "Positionering": 0.11,
+      "Uithoudingsvermogen": 0.09,
+      "Voorzetten": 0.08,
+      "Anticipatie": 0.09,
+      "Dribbelen": 0.06,
+      "1-tegen-1 duel": 0.05,
+      "Pressing zetten": 0.05,
+      "Spelinzicht": 0.05,
+      "Coaching vanuit achteruit": 0.04,
+      "Passing": 0.02,
+      "Geschikte voet (rechts)": 0.12
+    }
   },
   "Linker CV": {
-    "Tackelen": 0.18,
-    "Koppen": 0.15,
-    "Positionering": 0.13,
-    "Sterkte (fysiek)": 0.1,
-    "Anticipatie": 0.09,
-    "Passing": 0.07,
-    "Lange bal": 0.07,
-    "Coaching vanuit achteruit": 0.06,
-    "Leiderschap": 0.05,
-    "Buitenspelval gebruiken": 0.04,
-    "Geschikte voet (links)": 0.06
+    "beschrijving": "Een solide linker centrale verdediger die goed is in verdedigende acties, passing en het gebruiken van het linkerbeen.",
+    "vaardigheden": {
+      "Tackelen": 0.18,
+      "Koppen": 0.15,
+      "Positionering": 0.13,
+      "Sterkte (fysiek)": 0.1,
+      "Anticipatie": 0.09,
+      "Passing": 0.07,
+      "Lange bal": 0.07,
+      "Coaching vanuit achteruit": 0.06,
+      "Leiderschap": 0.05,
+      "Buitenspelval gebruiken": 0.04,
+      "Geschikte voet (links)": 0.06
+    }
   },
   "Rechter CV": {
-    "Tackelen": 0.18,
-    "Koppen": 0.15,
-    "Positionering": 0.13,
-    "Sterkte (fysiek)": 0.11,
-    "Anticipatie": 0.08,
-    "Passing": 0.07,
-    "Lange bal": 0.06,
-    "Coaching vanuit achteruit": 0.06,
-    "Leiderschap": 0.06,
-    "Buitenspelval gebruiken": 0.05,
-    "Geschikte voet (rechts)": 0.05
+    "beschrijving": "Een betrouwbare rechter centrale verdediger die sterk is in kopduels, positionering en het uitschakelen van tegenstanders.",
+    "vaardigheden": {
+      "Tackelen": 0.18,
+      "Koppen": 0.15,
+      "Positionering": 0.13,
+      "Sterkte (fysiek)": 0.11,
+      "Anticipatie": 0.08,
+      "Passing": 0.07,
+      "Lange bal": 0.06,
+      "Coaching vanuit achteruit": 0.06,
+      "Leiderschap": 0.06,
+      "Buitenspelval gebruiken": 0.05,
+      "Geschikte voet (rechts)": 0.05
+    }
   },
   "CDM": {
-    "Positionering": 0.15,
-    "Spelinzicht": 0.13,
-    "Anticipatie": 0.12,
-    "Passing": 0.1,
-    "Tackelen": 0.1,
-    "Pressing zetten": 0.08,
-    "Uithoudingsvermogen": 0.08,
-    "Besluitvorming": 0.07,
-    "Coaching vanuit achteruit": 0.05,
-    "Balverovering": 0.05,
-    "Geschikte voet (beide)": 0.07
+    "beschrijving": "Een balveroverende middenvelder die sterk is in positionering, tackles en het gebruiken van beide voeten.",
+    "vaardigheden": {
+      "Positionering": 0.15,
+      "Spelinzicht": 0.13,
+      "Anticipatie": 0.12,
+      "Passing": 0.1,
+      "Tackelen": 0.1,
+      "Pressing zetten": 0.08,
+      "Uithoudingsvermogen": 0.08,
+      "Besluitvorming": 0.07,
+      "Coaching vanuit achteruit": 0.05,
+      "Balverovering": 0.05,
+      "Geschikte voet (beide)": 0.07
+    }
   },
   "Linker CM": {
-    "Spelinzicht": 0.14,
-    "Positionering": 0.1,
-    "Passing": 0.07,
-    "Dribbelen": 0.1,
-    "Uithoudingsvermogen": 0.09,
-    "Pressing zetten": 0.08,
-    "Besluitvorming": 0.08,
-    "Anticipatie": 0.07,
-    "Aanvallende loopacties": 0.07,
-    "Geschikte voet (links)": 0.1
+    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "vaardigheden": {
+      "Spelinzicht": 0.14,
+      "Positionering": 0.1,
+      "Passing": 0.07,
+      "Dribbelen": 0.1,
+      "Uithoudingsvermogen": 0.09,
+      "Pressing zetten": 0.08,
+      "Besluitvorming": 0.08,
+      "Anticipatie": 0.07,
+      "Aanvallende loopacties": 0.07,
+      "Geschikte voet (links)": 0.1
+    }
   },
   "Rechter CM": {
-    "Spelinzicht": 0.14,
-    "Positionering": 0.1,
-    "Passing": 0.07,
-    "Dribbelen": 0.1,
-    "Uithoudingsvermogen": 0.09,
-    "Pressing zetten": 0.08,
-    "Besluitvorming": 0.08,
-    "Anticipatie": 0.07,
-    "Aanvallende loopacties": 0.07,
-    "Geschikte voet (rechts)": 0.1
+    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "vaardigheden": {
+      "Spelinzicht": 0.14,
+      "Positionering": 0.1,
+      "Passing": 0.07,
+      "Dribbelen": 0.1,
+      "Uithoudingsvermogen": 0.09,
+      "Pressing zetten": 0.08,
+      "Besluitvorming": 0.08,
+      "Anticipatie": 0.07,
+      "Aanvallende loopacties": 0.07,
+      "Geschikte voet (rechts)": 0.1
+    }
   },
   "Linksbuiten": {
-    "Snelheid": 0.15,
-    "Dribbelen": 0.13,
-    "Voorzetten": 0.1,
-    "Afstandsschot": 0.1,
-    "1-tegen-1 duel": 0.1,
-    "Aanvallende loopacties": 0.1,
-    "Spelinzicht": 0.07,
-    "Besluitvorming": 0.07,
-    "Passing": 0.06,
-    "Wendbaarheid": 0.05,
-    "Geschikte voet (links)": 0.07
+    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "vaardigheden": {
+      "Snelheid": 0.15,
+      "Dribbelen": 0.13,
+      "Voorzetten": 0.1,
+      "Afstandsschot": 0.1,
+      "1-tegen-1 duel": 0.1,
+      "Aanvallende loopacties": 0.1,
+      "Spelinzicht": 0.07,
+      "Besluitvorming": 0.07,
+      "Passing": 0.06,
+      "Wendbaarheid": 0.05,
+      "Geschikte voet (links)": 0.07
+    }
   },
   "Rechtsbuiten": {
-    "Snelheid": 0.15,
-    "Dribbelen": 0.13,
-    "Voorzetten": 0.1,
-    "Afstandsschot": 0.1,
-    "1-tegen-1 duel": 0.1,
-    "Aanvallende loopacties": 0.1,
-    "Spelinzicht": 0.07,
-    "Besluitvorming": 0.07,
-    "Passing": 0.06,
-    "Wendbaarheid": 0.05,
-    "Geschikte voet (rechts)": 0.07
+    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "vaardigheden": {
+      "Snelheid": 0.15,
+      "Dribbelen": 0.13,
+      "Voorzetten": 0.1,
+      "Afstandsschot": 0.1,
+      "1-tegen-1 duel": 0.1,
+      "Aanvallende loopacties": 0.1,
+      "Spelinzicht": 0.07,
+      "Besluitvorming": 0.07,
+      "Passing": 0.06,
+      "Wendbaarheid": 0.05,
+      "Geschikte voet (rechts)": 0.07
+    }
   },
   "Spits": {
-    "Schotkracht": 0.15,
-    "Schotnauwkeurigheid": 0.14,
-    "Positionering": 0.12,
-    "1-tegen-1 duel": 0.1,
-    "Koppen": 0.1,
-    "Aanvallende loopacties": 0.09,
-    "Afstandsschot": 0.08,
-    "Snelheid": 0.07,
-    "Passing": 0.05,
-    "Spelinzicht": 0.05,
-    "Geschikte voet (beide)": 0.05
+    "beschrijving": "Een doelgerichte spits met een sterk schot, goede positionering en fysieke kracht in de zestien.",
+    "vaardigheden": {
+      "Schotkracht": 0.15,
+      "Schotnauwkeurigheid": 0.14,
+      "Positionering": 0.12,
+      "1-tegen-1 duel": 0.1,
+      "Koppen": 0.1,
+      "Aanvallende loopacties": 0.09,
+      "Afstandsschot": 0.08,
+      "Snelheid": 0.07,
+      "Passing": 0.05,
+      "Spelinzicht": 0.05,
+      "Geschikte voet (beide)": 0.05
+    }
   },
   "Linksback - Aanvallend": {
-    "Snelheid": 0.15,
-    "Voorzetten": 0.12,
-    "Dribbelen": 0.1,
-    "Uithoudingsvermogen": 0.1,
-    "Aanvallende loopacties": 0.1,
-    "Passing": 0.08,
-    "Anticipatie": 0.07,
-    "Pressing zetten": 0.06,
-    "Positionering": 0.06,
-    "Tackelen": 0.06,
-    "Geschikte voet (links)": 0.1
+    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "vaardigheden": {
+      "Snelheid": 0.15,
+      "Voorzetten": 0.12,
+      "Dribbelen": 0.1,
+      "Uithoudingsvermogen": 0.1,
+      "Aanvallende loopacties": 0.1,
+      "Passing": 0.08,
+      "Anticipatie": 0.07,
+      "Pressing zetten": 0.06,
+      "Positionering": 0.06,
+      "Tackelen": 0.06,
+      "Geschikte voet (links)": 0.1
+    }
   },
   "Linksback - Verdedigend": {
-    "Tackelen": 0.15,
-    "Positionering": 0.14,
-    "Anticipatie": 0.12,
-    "Snelheid": 0.1,
-    "Uithoudingsvermogen": 0.09,
-    "Sterkte (fysiek)": 0.09,
-    "1-tegen-1 duel": 0.08,
-    "Passing": 0.06,
-    "Coaching vanuit achteruit": 0.06,
-    "Geschikte voet (links)": 0.11
+    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "vaardigheden": {
+      "Tackelen": 0.15,
+      "Positionering": 0.14,
+      "Anticipatie": 0.12,
+      "Snelheid": 0.1,
+      "Uithoudingsvermogen": 0.09,
+      "Sterkte (fysiek)": 0.09,
+      "1-tegen-1 duel": 0.08,
+      "Passing": 0.06,
+      "Coaching vanuit achteruit": 0.06,
+      "Geschikte voet (links)": 0.11
+    }
   },
   "Linksback - Inverted": {
-    "Passing": 0.11,
-    "Spelinzicht": 0.12,
-    "Anticipatie": 0.1,
-    "Positionering": 0.1,
-    "Coaching vanuit achteruit": 0.09,
-    "Lange bal": 0.08,
-    "Dribbelen": 0.07,
-    "Snelheid": 0.07,
-    "Geschikte voet (links)": 0.12
+    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "vaardigheden": {
+      "Passing": 0.11,
+      "Spelinzicht": 0.12,
+      "Anticipatie": 0.1,
+      "Positionering": 0.1,
+      "Coaching vanuit achteruit": 0.09,
+      "Lange bal": 0.08,
+      "Dribbelen": 0.07,
+      "Snelheid": 0.07,
+      "Geschikte voet (links)": 0.12
+    }
   },
   "Rechtsback - Aanvallend": {
-    "Snelheid": 0.15,
-    "Voorzetten": 0.12,
-    "Dribbelen": 0.1,
-    "Uithoudingsvermogen": 0.1,
-    "Aanvallende loopacties": 0.1,
-    "Passing": 0.08,
-    "Anticipatie": 0.07,
-    "Pressing zetten": 0.06,
-    "Positionering": 0.06,
-    "Tackelen": 0.06,
-    "Geschikte voet (rechts)": 0.1
+    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "vaardigheden": {
+      "Snelheid": 0.15,
+      "Voorzetten": 0.12,
+      "Dribbelen": 0.1,
+      "Uithoudingsvermogen": 0.1,
+      "Aanvallende loopacties": 0.1,
+      "Passing": 0.08,
+      "Anticipatie": 0.07,
+      "Pressing zetten": 0.06,
+      "Positionering": 0.06,
+      "Tackelen": 0.06,
+      "Geschikte voet (rechts)": 0.1
+    }
   },
   "Rechtsback - Verdedigend": {
-    "Tackelen": 0.15,
-    "Positionering": 0.14,
-    "Anticipatie": 0.12,
-    "Snelheid": 0.1,
-    "Uithoudingsvermogen": 0.09,
-    "Sterkte (fysiek)": 0.09,
-    "1-tegen-1 duel": 0.08,
-    "Passing": 0.06,
-    "Coaching vanuit achteruit": 0.06,
-    "Geschikte voet (rechts)": 0.11
+    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "vaardigheden": {
+      "Tackelen": 0.15,
+      "Positionering": 0.14,
+      "Anticipatie": 0.12,
+      "Snelheid": 0.1,
+      "Uithoudingsvermogen": 0.09,
+      "Sterkte (fysiek)": 0.09,
+      "1-tegen-1 duel": 0.08,
+      "Passing": 0.06,
+      "Coaching vanuit achteruit": 0.06,
+      "Geschikte voet (rechts)": 0.11
+    }
   },
   "Rechtsback - Inverted": {
-    "Passing": 0.11,
-    "Spelinzicht": 0.12,
-    "Anticipatie": 0.1,
-    "Positionering": 0.1,
-    "Coaching vanuit achteruit": 0.09,
-    "Lange bal": 0.08,
-    "Dribbelen": 0.07,
-    "Snelheid": 0.07,
-    "Geschikte voet (rechts)": 0.12
+    "beschrijving": "Een technisch vaardige back die vaak naar binnen trekt en bijdraagt aan de opbouw met passing en inzicht.",
+    "vaardigheden": {
+      "Passing": 0.11,
+      "Spelinzicht": 0.12,
+      "Anticipatie": 0.1,
+      "Positionering": 0.1,
+      "Coaching vanuit achteruit": 0.09,
+      "Lange bal": 0.08,
+      "Dribbelen": 0.07,
+      "Snelheid": 0.07,
+      "Geschikte voet (rechts)": 0.12
+    }
   },
   "CV - Stopper": {
-    "Tackelen": 0.16,
-    "Positionering": 0.14,
-    "1-tegen-1 duel": 0.13,
-    "Sterkte (fysiek)": 0.12,
-    "Koppen": 0.12,
-    "Anticipatie": 0.1,
-    "Uithoudingsvermogen": 0.07,
-    "Snelheid": 0.06,
-    "Geschikte voet (beide)": 0.1
+    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "vaardigheden": {
+      "Tackelen": 0.16,
+      "Positionering": 0.14,
+      "1-tegen-1 duel": 0.13,
+      "Sterkte (fysiek)": 0.12,
+      "Koppen": 0.12,
+      "Anticipatie": 0.1,
+      "Uithoudingsvermogen": 0.07,
+      "Snelheid": 0.06,
+      "Geschikte voet (beide)": 0.1
+    }
   },
   "CV - Bouwer": {
-    "Passing": 0.12,
-    "Spelinzicht": 0.12,
-    "Positionering": 0.12,
-    "Anticipatie": 0.1,
-    "Tackelen": 0.1,
-    "Lange bal": 0.1,
-    "Koppen": 0.1,
-    "Geschikte voet (beide)": 0.14
+    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "vaardigheden": {
+      "Passing": 0.12,
+      "Spelinzicht": 0.12,
+      "Positionering": 0.12,
+      "Anticipatie": 0.1,
+      "Tackelen": 0.1,
+      "Lange bal": 0.1,
+      "Koppen": 0.1,
+      "Geschikte voet (beide)": 0.14
+    }
   },
   "CDM - Playmaker": {
-    "Spelinzicht": 0.16,
-    "Passing": 0.13,
-    "Anticipatie": 0.13,
-    "Lange bal": 0.12,
-    "Positionering": 0.1,
-    "Coaching vanuit achteruit": 0.08,
-    "Geschikte voet (beide)": 0.14
+    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "vaardigheden": {
+      "Spelinzicht": 0.16,
+      "Passing": 0.13,
+      "Anticipatie": 0.13,
+      "Lange bal": 0.12,
+      "Positionering": 0.1,
+      "Coaching vanuit achteruit": 0.08,
+      "Geschikte voet (beide)": 0.14
+    }
   },
   "CAM - Loper": {
-    "Uithoudingsvermogen": 0.14,
-    "Aanvallende loopacties": 0.13,
-    "Besluitvorming": 0.13,
-    "Passing": 0.12,
-    "Dribbelen": 0.1,
-    "Anticipatie": 0.1,
-    "Snelheid": 0.08,
-    "Geschikte voet (beide)": 0.1,
-    "Spelinzicht": 0.1
+    "beschrijving": "Een aanvallende middenvelder met veel loopvermogen, schotkracht en dribbels richting het strafschopgebied.",
+    "vaardigheden": {
+      "Uithoudingsvermogen": 0.14,
+      "Aanvallende loopacties": 0.13,
+      "Besluitvorming": 0.13,
+      "Passing": 0.12,
+      "Dribbelen": 0.1,
+      "Anticipatie": 0.1,
+      "Snelheid": 0.08,
+      "Geschikte voet (beide)": 0.1,
+      "Spelinzicht": 0.1
+    }
   },
   "Spits - Targetman": {
-    "Sterkte (fysiek)": 0.16,
-    "Koppen": 0.14,
-    "1-tegen-1 duel": 0.13,
-    "Schotkracht": 0.13,
-    "Positionering": 0.1,
-    "Afstandsschot": 0.1,
-    "Passing": 0.08,
-    "Geschikte voet (beide)": 0.16
+    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "vaardigheden": {
+      "Sterkte (fysiek)": 0.16,
+      "Koppen": 0.14,
+      "1-tegen-1 duel": 0.13,
+      "Schotkracht": 0.13,
+      "Positionering": 0.1,
+      "Afstandsschot": 0.1,
+      "Passing": 0.08,
+      "Geschikte voet (beide)": 0.16
+    }
   },
   "Spits - Diepe spits": {
-    "Snelheid": 0.15,
-    "Positionering": 0.14,
-    "Schotkracht": 0.14,
-    "Aanvallende loopacties": 0.12,
-    "1-tegen-1 duel": 0.1,
-    "Afstandsschot": 0.1,
-    "Geschikte voet (beide)": 0.15,
-    "Passing": 0.1
+    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "vaardigheden": {
+      "Snelheid": 0.15,
+      "Positionering": 0.14,
+      "Schotkracht": 0.14,
+      "Aanvallende loopacties": 0.12,
+      "1-tegen-1 duel": 0.1,
+      "Afstandsschot": 0.1,
+      "Geschikte voet (beide)": 0.15,
+      "Passing": 0.1
+    }
   },
   "Spits - Valse 9": {
-    "Spelinzicht": 0.15,
-    "Passing": 0.14,
-    "Wendbaarheid": 0.13,
-    "Besluitvorming": 0.12,
-    "Dribbelen": 0.11,
-    "Afstandsschot": 0.1,
-    "Positionering": 0.1,
-    "Geschikte voet (beide)": 0.15
+    "beschrijving": "Een creatieve spits die zakt naar het middenveld, combineert en ruimte creëert voor medespelers.",
+    "vaardigheden": {
+      "Spelinzicht": 0.15,
+      "Passing": 0.14,
+      "Wendbaarheid": 0.13,
+      "Besluitvorming": 0.12,
+      "Dribbelen": 0.11,
+      "Afstandsschot": 0.1,
+      "Positionering": 0.1,
+      "Geschikte voet (beide)": 0.15
+    }
   },
   "CM - Box-to-box": {
-    "Uithoudingsvermogen": 0.14,
-    "Aanvallende loopacties": 0.12,
-    "Passing": 0.12,
-    "Snelheid": 0.11,
-    "Dribbelen": 0.1,
-    "Anticipatie": 0.1,
-    "Spelinzicht": 0.1,
-    "Tackelen": 0.09,
-    "Geschikte voet (beide)": 0.12
+    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "vaardigheden": {
+      "Uithoudingsvermogen": 0.14,
+      "Aanvallende loopacties": 0.12,
+      "Passing": 0.12,
+      "Snelheid": 0.11,
+      "Dribbelen": 0.1,
+      "Anticipatie": 0.1,
+      "Spelinzicht": 0.1,
+      "Tackelen": 0.09,
+      "Geschikte voet (beide)": 0.12
+    }
   },
   "CM - Controleur": {
-    "Passing": 0.12,
-    "Spelinzicht": 0.13,
-    "Anticipatie": 0.11,
-    "Coaching vanuit achteruit": 0.1,
-    "Positionering": 0.1,
-    "Lange bal": 0.09,
-    "Geschikte voet (beide)": 0.11
+    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "vaardigheden": {
+      "Passing": 0.12,
+      "Spelinzicht": 0.13,
+      "Anticipatie": 0.11,
+      "Coaching vanuit achteruit": 0.1,
+      "Positionering": 0.1,
+      "Lange bal": 0.09,
+      "Geschikte voet (beide)": 0.11
+    }
   },
   "Keeper - Lijnkeeper": {
-    "Reflexen": 0.18,
-    "Positionering": 0.15,
-    "1-tegen-1 duel": 0.14,
-    "Sprongkracht": 0.12,
-    "Snelheid": 0.1,
-    "Tackelen": 0.08,
-    "Coaching vanuit achteruit": 0.07,
-    "Geschikte voet (beide)": 0.08,
-    "Passing": 0.08
+    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "vaardigheden": {
+      "Reflexen": 0.18,
+      "Positionering": 0.15,
+      "1-tegen-1 duel": 0.14,
+      "Sprongkracht": 0.12,
+      "Snelheid": 0.1,
+      "Tackelen": 0.08,
+      "Coaching vanuit achteruit": 0.07,
+      "Geschikte voet (beide)": 0.08,
+      "Passing": 0.08
+    }
   },
   "Keeper - Meevoetballend": {
-    "Passing": 0.14,
-    "Keeperstechniek": 0.14,
-    "Spelinzicht": 0.13,
-    "Positionering": 0.12,
-    "Lange pass": 0.12,
-    "Reflexen": 0.1,
-    "Coaching vanuit achteruit": 0.09,
-    "Snelheid": 0.08,
-    "Geschikte voet (beide)": 0.08
+    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "vaardigheden": {
+      "Passing": 0.14,
+      "Keeperstechniek": 0.14,
+      "Spelinzicht": 0.13,
+      "Positionering": 0.12,
+      "Lange pass": 0.12,
+      "Reflexen": 0.1,
+      "Coaching vanuit achteruit": 0.09,
+      "Snelheid": 0.08,
+      "Geschikte voet (beide)": 0.08
+    }
   },
   "Schaduwspits": {
-    "Aanvallende loopacties": 0.14,
-    "Positionering": 0.13,
-    "Schotkracht": 0.12,
-    "Afstandsschot": 0.12,
-    "Spelinzicht": 0.1,
-    "Dribbelen": 0.1,
-    "Passing": 0.09,
-    "Besluitvorming": 0.1,
-    "Geschikte voet (beide)": 0.1
+    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "vaardigheden": {
+      "Aanvallende loopacties": 0.14,
+      "Positionering": 0.13,
+      "Schotkracht": 0.12,
+      "Afstandsschot": 0.12,
+      "Spelinzicht": 0.1,
+      "Dribbelen": 0.1,
+      "Passing": 0.09,
+      "Besluitvorming": 0.1,
+      "Geschikte voet (beide)": 0.1
+    }
   },
   "Wingback Links - Aanvallend": {
-    "Snelheid": 0.16,
-    "Voorzetten": 0.14,
-    "Dribbelen": 0.12,
-    "Uithoudingsvermogen": 0.12,
-    "Aanvallende loopacties": 0.12,
-    "Passing": 0.08,
-    "Positionering": 0.08,
-    "Tackelen": 0.06,
-    "Geschikte voet (links)": 0.12
+    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "vaardigheden": {
+      "Snelheid": 0.16,
+      "Voorzetten": 0.14,
+      "Dribbelen": 0.12,
+      "Uithoudingsvermogen": 0.12,
+      "Aanvallende loopacties": 0.12,
+      "Passing": 0.08,
+      "Positionering": 0.08,
+      "Tackelen": 0.06,
+      "Geschikte voet (links)": 0.12
+    }
   },
   "Wingback Rechts - Aanvallend": {
-    "Snelheid": 0.16,
-    "Voorzetten": 0.14,
-    "Dribbelen": 0.12,
-    "Uithoudingsvermogen": 0.12,
-    "Aanvallende loopacties": 0.12,
-    "Passing": 0.08,
-    "Positionering": 0.08,
-    "Tackelen": 0.06,
-    "Geschikte voet (rechts)": 0.12
+    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "vaardigheden": {
+      "Snelheid": 0.16,
+      "Voorzetten": 0.14,
+      "Dribbelen": 0.12,
+      "Uithoudingsvermogen": 0.12,
+      "Aanvallende loopacties": 0.12,
+      "Passing": 0.08,
+      "Positionering": 0.08,
+      "Tackelen": 0.06,
+      "Geschikte voet (rechts)": 0.12
+    }
   },
   "Vleugelspeler Links - Inverted": {
-    "Schotkracht": 0.14,
-    "Afstandsschot": 0.13,
-    "Dribbelen": 0.13,
-    "Aanvallende loopacties": 0.12,
-    "Snelheid": 0.11,
-    "Positionering": 0.1,
-    "Spelinzicht": 0.08,
-    "Geschikte voet (links)": 0.19
+    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "vaardigheden": {
+      "Schotkracht": 0.14,
+      "Afstandsschot": 0.13,
+      "Dribbelen": 0.13,
+      "Aanvallende loopacties": 0.12,
+      "Snelheid": 0.11,
+      "Positionering": 0.1,
+      "Spelinzicht": 0.08,
+      "Geschikte voet (links)": 0.19
+    }
   },
   "Vleugelspeler Rechts - Inverted": {
-    "Schotkracht": 0.14,
-    "Afstandsschot": 0.13,
-    "Dribbelen": 0.13,
-    "Aanvallende loopacties": 0.12,
-    "Snelheid": 0.11,
-    "Positionering": 0.1,
-    "Spelinzicht": 0.08,
-    "Geschikte voet (rechts)": 0.19
+    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "vaardigheden": {
+      "Schotkracht": 0.14,
+      "Afstandsschot": 0.13,
+      "Dribbelen": 0.13,
+      "Aanvallende loopacties": 0.12,
+      "Snelheid": 0.11,
+      "Positionering": 0.1,
+      "Spelinzicht": 0.08,
+      "Geschikte voet (rechts)": 0.19
+    }
   },
   "Inside forward Links": {
-    "Positionering": 0.13,
-    "Snelheid": 0.13,
-    "Schotkracht": 0.13,
-    "1-tegen-1 duel": 0.12,
-    "Dribbelen": 0.12,
-    "Afstandsschot": 0.1,
-    "Aanvallende loopacties": 0.09,
-    "Geschikte voet (links)": 0.18
+    "beschrijving": "Een aanvallende speler op links die naar binnen snijdt en gevaarlijk is met zijn schot en dribbel.",
+    "vaardigheden": {
+      "Positionering": 0.13,
+      "Snelheid": 0.13,
+      "Schotkracht": 0.13,
+      "1-tegen-1 duel": 0.12,
+      "Dribbelen": 0.12,
+      "Afstandsschot": 0.1,
+      "Aanvallende loopacties": 0.09,
+      "Geschikte voet (links)": 0.18
+    }
   },
   "Inside forward Rechts": {
-    "Positionering": 0.13,
-    "Snelheid": 0.13,
-    "Schotkracht": 0.13,
-    "1-tegen-1 duel": 0.12,
-    "Dribbelen": 0.12,
-    "Afstandsschot": 0.1,
-    "Aanvallende loopacties": 0.09,
-    "Geschikte voet (rechts)": 0.18
+    "beschrijving": "Een aanvaller vanaf rechts met sterke dribbels en schotnauwkeurigheid, die naar binnen snijdt.",
+    "vaardigheden": {
+      "Positionering": 0.13,
+      "Snelheid": 0.13,
+      "Schotkracht": 0.13,
+      "1-tegen-1 duel": 0.12,
+      "Dribbelen": 0.12,
+      "Afstandsschot": 0.1,
+      "Aanvallende loopacties": 0.09,
+      "Geschikte voet (rechts)": 0.18
+    }
   }
 }
