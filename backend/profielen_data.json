@@ -306,7 +306,7 @@
     }
   },
   "CAM - Loper": {
-    "beschrijving": "Een aanvallende middenvelder met veel loopvermogen, schotkracht en dribbels richting het strafschopgebied.",
+    "beschrijving": "De lopende aanvallende middenvelder is constant in beweging. Hij duikt in ruimtes tussen de linies en maakt slimme loopacties richting het strafschopgebied. Zijn dynamiek en gevoel voor timing maken hem gevaarlijk als verbindingsspeler.",
     "vaardigheden": {
       "Uithoudingsvermogen": 0.14,
       "Aanvallende loopacties": 0.13,
@@ -320,7 +320,7 @@
     }
   },
   "Spits - Targetman": {
-    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "beschrijving": "De targetman is een fysiek sterke spits die fungeert als aanspeelpunt. Hij houdt de bal vast, verdeelt het spel en wint luchtduels. In het strafschopgebied is hij een constante dreiging dankzij zijn kracht en kopvermogen.",
     "vaardigheden": {
       "Sterkte (fysiek)": 0.16,
       "Koppen": 0.14,
@@ -333,7 +333,7 @@
     }
   },
   "Spits - Diepe spits": {
-    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "beschrijving": "De diepe spits jaagt op ruimtes achter de verdediging. Hij is snel, beweeglijk en zoekt voortdurend de diepte om op snelheid af te ronden. Deze spits is ideaal in een countergericht systeem.",
     "vaardigheden": {
       "Snelheid": 0.15,
       "Positionering": 0.14,
@@ -346,7 +346,7 @@
     }
   },
   "Spits - Valse 9": {
-    "beschrijving": "Een creatieve spits die zakt naar het middenveld, combineert en ruimte creëert voor medespelers.",
+    "beschrijving": "De valse 9 is een creatieve spits die terugzakt naar het middenveld om ruimte te creëren voor opkomende spelers. Hij combineert technisch vernuft met visie en is gevaarlijk met passes én schoten.",
     "vaardigheden": {
       "Spelinzicht": 0.15,
       "Passing": 0.14,
@@ -359,7 +359,7 @@
     }
   },
   "CM - Box-to-box": {
-    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "beschrijving": "De box-to-box middenvelder is onvermoeibaar en actief over het hele veld. Hij verdedigt mee, valt aan, en is constant in beweging. Deze speler is de motor van het team.",
     "vaardigheden": {
       "Uithoudingsvermogen": 0.14,
       "Aanvallende loopacties": 0.12,
@@ -373,7 +373,7 @@
     }
   },
   "CM - Controleur": {
-    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "beschrijving": "De controleur bewaakt het ritme van het spel. Hij speelt vaak in de as van het veld en verdeelt het spel met slimme korte passes. Hij is rustig onder druk en houdt de organisatie op het middenveld vast.",
     "vaardigheden": {
       "Passing": 0.12,
       "Spelinzicht": 0.13,
@@ -385,7 +385,7 @@
     }
   },
   "Keeper - Lijnkeeper": {
-    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "beschrijving": "De lijnkeeper blinkt uit in reflexen en positionering op de doellijn. Hij is gespecialiseerd in schoten stoppen en 1-op-1 situaties. Zijn focus ligt op shot-stopping, minder op meevoetballen.",
     "vaardigheden": {
       "Reflexen": 0.18,
       "Positionering": 0.15,
@@ -399,7 +399,7 @@
     }
   },
   "Keeper - Meevoetballend": {
-    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "beschrijving": "De meevoetballende keeper is comfortabel aan de bal en neemt actief deel aan de opbouw. Hij fungeert als laatste man in balbezit en kan onder druk de juiste keuze maken.",
     "vaardigheden": {
       "Passing": 0.14,
       "Keeperstechniek": 0.14,
@@ -413,7 +413,7 @@
     }
   },
   "Schaduwspits": {
-    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "beschrijving": "De schaduwspits speelt net achter de spits en duikt regelmatig op in scoringspositie. Hij is technisch vaardig en beschikt over een neusje voor de goal. Deze speler is gevaarlijk met en zonder bal.",
     "vaardigheden": {
       "Aanvallende loopacties": 0.14,
       "Positionering": 0.13,
@@ -427,7 +427,7 @@
     }
   },
   "Wingback Links - Aanvallend": {
-    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "beschrijving": "De aanvallende linkse wingback combineert het uithoudingsvermogen van een back met de diepgang van een vleugelspeler. Hij is constant op en neer actief en levert aanvallende impulsen met voorzetten.",
     "vaardigheden": {
       "Snelheid": 0.16,
       "Voorzetten": 0.14,
@@ -441,7 +441,7 @@
     }
   },
   "Wingback Rechts - Aanvallend": {
-    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "beschrijving": "De aanvallende rechter wingback is een dynamische speler die de gehele rechterflank bestrijkt. Hij schakelt snel tussen verdedigen en aanvallen en levert aanvallende stootkracht met voorzetten en loopacties.",
     "vaardigheden": {
       "Snelheid": 0.16,
       "Voorzetten": 0.14,
@@ -455,7 +455,7 @@
     }
   },
   "Vleugelspeler Links - Inverted": {
-    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "beschrijving": "De linker inverted vleugelspeler komt vaak naar binnen op zijn sterke rechtervoet om te schieten of te combineren. Hij creëert kansen en zoekt vaak het strafschopgebied op in plaats van de achterlijn.",
     "vaardigheden": {
       "Schotkracht": 0.14,
       "Afstandsschot": 0.13,
@@ -468,7 +468,7 @@
     }
   },
   "Vleugelspeler Rechts - Inverted": {
-    "beschrijving": "Nog geen beschrijving beschikbaar.",
+    "beschrijving": "De rechter inverted vleugelspeler snijdt naar binnen vanaf rechts en zoekt het doel op met zijn linkerbeen. Hij is creatief, technisch vaardig en een constante dreiging in de aanval.",
     "vaardigheden": {
       "Schotkracht": 0.14,
       "Afstandsschot": 0.13,
@@ -481,7 +481,7 @@
     }
   },
   "Inside forward Links": {
-    "beschrijving": "Een aanvallende speler op links die naar binnen snijdt en gevaarlijk is met zijn schot en dribbel.",
+    "beschrijving": "De inside forward op links zoekt voortdurend de weg naar het doel, vaak met diagonale loopacties. Hij combineert snelheid en schotkracht met gevaarlijke bewegingen richting de zestienmeter.",
     "vaardigheden": {
       "Positionering": 0.13,
       "Snelheid": 0.13,
@@ -494,7 +494,7 @@
     }
   },
   "Inside forward Rechts": {
-    "beschrijving": "Een aanvaller vanaf rechts met sterke dribbels en schotnauwkeurigheid, die naar binnen snijdt.",
+    "beschrijving": "De inside forward op rechts is een explosieve aanvaller die van buiten naar binnen trekt om te scoren. Hij is effectief in de combinatie, zoekt snel de schietpositie op en is gevaarlijk in de één-tegen-één.",
     "vaardigheden": {
       "Positionering": 0.13,
       "Snelheid": 0.13,
