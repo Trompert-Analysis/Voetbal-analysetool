@@ -7,6 +7,7 @@ import Analyse from './pages/Analyse';
 import Team from './pages/Team';
 import Register from './pages/Register';
 import Login from './pages/Login';
+import Dashboard from './pages/Dashboard';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/team" element={<Team />} />
         <Route path="/Register" element={<Register />} />
         <Route path="/Login" element={<Login />} />
+        <Route path="/Dashboard" element={<Dashboard />} />
       </Routes>
     </Router>
   );
