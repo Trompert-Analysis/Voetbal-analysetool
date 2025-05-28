@@ -35,7 +35,8 @@ def bereken_matchscore(data: InputData):
 
     profiel_scores = []
 
-    for profiel_naam, vaardigheden in profielen_data.items():
+    for profiel_naam, eigenschappen in profielen_data.items():
+        vaardigheden = eigenschappen["vaardigheden"]
         score = 0
         totaal_gewicht = 0
         for vaardigheid, gewicht in vaardigheden.items():
@@ -55,6 +56,11 @@ def bereken_matchscore(data: InputData):
     advies = "🏆 Top 3 best passende profielen:\n"
     for i, p in enumerate(top_3, 1):
         advies += f"  {i}. {p['profiel'].ljust(max_len)} – Score: {p['score']}\n"
+
+    # Beschrijving van het beste profiel
+    beste_profiel = top_3[0]["profiel"]
+    beschrijving = profielen_data[beste_profiel].get("beschrijving", "Geen beschrijving beschikbaar.")
+    advies += f"\n📝 Beschrijving van best passend profiel ({beste_profiel}):\n{beschrijving}\n"
 
     advies += "\n🔻 Laagst scorende 3 profielen:\n"
     for i, p in enumerate(bottom_3, 1):
