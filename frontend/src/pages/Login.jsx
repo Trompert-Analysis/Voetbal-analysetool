@@ -31,7 +31,7 @@ function Login() {
       if (response.ok) {
         localStorage.setItem('token', data.access_token);
         setSuccess('Succesvol ingelogd!');
-        navigate('/dashboard'); // ✅ navigeert na succesvol inloggen
+        navigate('/Dashboard'); // ✅ navigeert na succesvol inloggen
       } else {
         setError(data.detail || 'Inloggen mislukt');
       }
