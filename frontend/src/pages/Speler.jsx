@@ -25,7 +25,7 @@ function Speler() {
   };
 
   const secties = {
-    "Fysiek": ["snelheid", "Sterkte (fysiek)", "uithoudingsvermogen", "Wendbaarheid", "sprongkracht"],
+    "Fysiek": ["Snelheid", "Sterkte (fysiek)", "Uithoudingsvermogen", "Wendbaarheid", "Sprongkracht"],
     "Technische vaardigheden": ["1-tegen-1 duel", "Aanvallende loopacties", "Afstandsschot", "Dribbelen", "Koppen", "Passing", "Lange bal", "Positionering", "Pressing zetten", "Schotkracht", "Schotnauwkeurigheid", "Tackelen", "Traptechniek", "Voorzetten"],
     "Mentale vaaardigheden": ["Anticipatie", "Besluitvorming", "Creativiteit", "Leiderschap", "Spelinzicht"],
     "Overige vaardigheden": ["Balverovering", "Buitenspelval gebruiken", "Geschikte voet (links)", "Geschikte voet (rechts)", "Geschikte voet (beide)"],
