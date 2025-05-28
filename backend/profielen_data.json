@@ -15,7 +15,7 @@
     }
   },
   "Linksback": {
-    "beschrijving": "Een dynamische vleugelverdediger die sterk is in het neerzetten van pressing, tackles en voorzetten met het linkerbeen.",
+    "beschrijving": "De linksback combineert defensieve degelijkheid met aanvallende intenties. Hij bewaakt de flank en is in staat om snelle buitenspelers af te stoppen met tackles en slimme positionering. Tegelijkertijd sluit hij moeiteloos aan in de aanval, ondersteunt de winger en verzorgt gevaarlijke voorzetten. Een moderne linksback is wendbaar, heeft een hoge intensiteit en weet precies wanneer hij moet opkomen en wanneer hij achter moet blijven.",
     "vaardigheden": {
       "Snelheid": 0.16,
       "Tackelen": 0.13,
@@ -33,7 +33,7 @@
     }
   },
   "Rechtsback": {
-    "beschrijving": "Een snelle en wendbare back met sterke pressing en verdedigende kwaliteiten op de rechterflank.",
+    "beschrijving": "De rechtsback is een dynamische verdediger die zijn zone langs de rechterflank nauwgezet bewaakt. Hij is verdedigend betrouwbaar, sterk in één-tegen-één situaties en snel in het omschakelen. Daarnaast biedt hij offensieve ondersteuning door op te komen langs de lijn en gevaarlijke voorzetten te leveren. Een rechtsback moet beschikken over een goed uithoudingsvermogen, scherpe positionering en de juiste timing in tackles en pressing.",
     "vaardigheden": {
       "Snelheid": 0.15,
       "Tackelen": 0.14,
@@ -51,7 +51,7 @@
     }
   },
   "Linker CV": {
-    "beschrijving": "Een solide linker centrale verdediger die goed is in verdedigende acties, passing en het gebruiken van het linkerbeen.",
+    "beschrijving": "De linker centrale verdediger is een fysieke en tactisch sterke speler. Hij is verantwoordelijk voor het controleren van aanvallen van rechts en speelt een sleutelrol in het verdedigen van hoge ballen. Hij excelleert in duelkracht, kopsterkte en is betrouwbaar in de opbouw met zijn linkerbeen. Zijn kalmte aan de bal en vermogen om druk te weerstaan zijn essentieel voor een stabiele verdediging.",
     "vaardigheden": {
       "Tackelen": 0.18,
       "Koppen": 0.15,
@@ -67,7 +67,7 @@
     }
   },
   "Rechter CV": {
-    "beschrijving": "Een betrouwbare rechter centrale verdediger die sterk is in kopduels, positionering en het uitschakelen van tegenstanders.",
+    "beschrijving": "De rechter centrale verdediger is een stabiele kracht in de defensie, verantwoordelijk voor het afstoppen van aanvallen en het bewaken van de organisatie achterin. Hij combineert fysieke kracht met tactisch inzicht en weet wanneer hij moet uitstappen of juist zijn positie moet behouden. Een rechter CV is sterk in de lucht, laat zich niet gemakkelijk passeren en communiceert effectief met medespelers om het verdedigingsblok compact te houden.",
     "vaardigheden": {
       "Tackelen": 0.18,
       "Koppen": 0.15,
@@ -83,7 +83,7 @@
     }
   },
   "CDM": {
-    "beschrijving": "Een balveroverende middenvelder die sterk is in positionering, tackles en het gebruiken van beide voeten.",
+    "beschrijving": "De CDM is het schild voor de verdediging en de schakel naar het middenveld. Hij onderschept ballen, herwint het balbezit en verdeelt het spel met overzicht en precisie. Zijn spel zonder bal is net zo belangrijk als zijn acties met bal. Hij leest het spel, anticipeert op tegenstanders en houdt het tempo hoog. Hij biedt altijd een afspeelpunt en bewaart de rust in de omschakeling.",
     "vaardigheden": {
       "Positionering": 0.15,
       "Spelinzicht": 0.13,
