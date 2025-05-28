@@ -234,26 +234,6 @@
     "Tackelen": 0.1,
     "Lange bal": 0.1,
     "Koppen": 0.1,
-    "Geschikte voet (beide)": 0.1
-  },
-  "CV - Libero": {
-    "Spelinzicht": 0.15,
-    "Passing": 0.12,
-    "Anticipatie": 0.12,
-    "Positionering": 0.12,
-    "Lange bal": 0.1,
-    "Snelheid": 0.08,
-    "Tackelen": 0.08,
-    "Geschikte voet (beide)": 0.1
-  },
-  "CDM - Baller": {
-    "Tackelen": 0.16,
-    "Anticipatie": 0.14,
-    "Positionering": 0.13,
-    "Balverovering": 0.13,
-    "Pressing zetten": 0.12,
-    "Passing": 0.1,
-    "Snelheid": 0.08,
     "Geschikte voet (beide)": 0.14
   },
   "CDM - Playmaker": {
@@ -264,16 +244,6 @@
     "Positionering": 0.1,
     "Coaching vanuit achteruit": 0.08,
     "Geschikte voet (beide)": 0.14
-  },
-  "CAM - 10": {
-    "Spelinzicht": 0.16,
-    "Dribbelen": 0.14,
-    "Passing": 0.13,
-    "Wendbaarheid": 0.12,
-    "Afstandsschot": 0.1,
-    "Besluitvorming": 0.1,
-    "Creativiteit": 0.1,
-    "Geschikte voet (beide)": 0.15
   },
   "CAM - Loper": {
     "Uithoudingsvermogen": 0.14,
@@ -336,16 +306,6 @@
     "Lange bal": 0.09,
     "Geschikte voet (beide)": 0.11
   },
-  "CM - Technisch": {
-    "Dribbelen": 0.13,
-    "Passing": 0.13,
-    "Spelinzicht": 0.12,
-    "Wendbaarheid": 0.12,
-    "Anticipatie": 0.1,
-    "Snelheid": 0.1,
-    "Besluitvorming": 0.1,
-    "Geschikte voet (beide)": 0.1
-  },
   "Keeper - Lijnkeeper": {
     "Reflexen": 0.18,
     "Positionering": 0.15,
@@ -367,16 +327,6 @@
     "Coaching vanuit achteruit": 0.09,
     "Snelheid": 0.08,
     "Geschikte voet (beide)": 0.08
-  },
-  "Keeper - Penaltyspecialist": {
-    "Reflexen": 0.2,
-    "1-tegen-1 duel": 0.15,
-    "Sprongkracht": 0.14,
-    "Anticipatie": 0.12,
-    "Positionering": 0.12,
-    "Snelheid": 0.09,
-    "Coaching vanuit achteruit": 0.08,
-    "Geschikte voet (beide)": 0.1
   },
   "Schaduwspits": {
     "Aanvallende loopacties": 0.14,
@@ -410,48 +360,6 @@
     "Positionering": 0.08,
     "Tackelen": 0.06,
     "Geschikte voet (rechts)": 0.12
-  },
-  "Wingback Links - Allround": {
-    "Uithoudingsvermogen": 0.14,
-    "Snelheid": 0.13,
-    "Voorzetten": 0.12,
-    "Positionering": 0.12,
-    "Tackelen": 0.1,
-    "Dribbelen": 0.1,
-    "Passing": 0.08,
-    "Pressing zetten": 0.07,
-    "Geschikte voet (links)": 0.14
-  },
-  "Wingback Rechts - Allround": {
-    "Uithoudingsvermogen": 0.14,
-    "Snelheid": 0.13,
-    "Voorzetten": 0.12,
-    "Positionering": 0.12,
-    "Tackelen": 0.1,
-    "Dribbelen": 0.1,
-    "Passing": 0.08,
-    "Pressing zetten": 0.07,
-    "Geschikte voet (rechts)": 0.14
-  },
-  "Vleugelspeler Links - Klassiek": {
-    "Snelheid": 0.15,
-    "Voorzetten": 0.14,
-    "Dribbelen": 0.14,
-    "Aanvallende loopacties": 0.13,
-    "Positionering": 0.1,
-    "1-tegen-1 duel": 0.1,
-    "Uithoudingsvermogen": 0.08,
-    "Geschikte voet (links)": 0.16
-  },
-  "Vleugelspeler Rechts - Klassiek": {
-    "Snelheid": 0.15,
-    "Voorzetten": 0.14,
-    "Dribbelen": 0.14,
-    "Aanvallende loopacties": 0.13,
-    "Positionering": 0.1,
-    "1-tegen-1 duel": 0.1,
-    "Uithoudingsvermogen": 0.08,
-    "Geschikte voet (rechts)": 0.16
   },
   "Vleugelspeler Links - Inverted": {
     "Schotkracht": 0.14,
