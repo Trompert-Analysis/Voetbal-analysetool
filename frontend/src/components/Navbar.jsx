@@ -8,7 +8,7 @@ function Navbar() {
       <Link to="/speler">Speler</Link>
       <Link to="/analyse">Analyse</Link>
       <Link to="/team">Team</Link>
-      <Link to="/register">Register</Link>
+      <Link to="/register">Registreren</Link>
     </nav>
   );
 }
