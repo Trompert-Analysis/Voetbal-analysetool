@@ -75,7 +75,7 @@ function Speler() {
       {advies && (
         <div className="mt-6 p-4 bg-green-100 border border-green-300 rounded">
           <p className="font-medium text-green-800 mb-1">Advies:</p>
-          <p>{advies}</p>
+          <pre className="whitespace-pre-wrap font-mono text-sm">{advies}</pre>
         </div>
       )}
     </div>
