@@ -1,8 +1,6 @@
-
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi import FastAPI
 from pydantic import BaseModel
-import pandas as pd
 import json
 
 app = FastAPI()
@@ -25,29 +23,27 @@ class InputData(BaseModel):
 
 @app.post("/matchscore")
 def bereken_matchscore(data: InputData):
+    # Gemiddelde score per vaardigheid
     gemiddelde_scores = {}
     for vaardigheid in data.beoordeling:
         try:
-            gemiddelde_scores[vaardigheid] = (float(data.beoordeling[vaardigheid]) + float(data.zelfbeoordeling[vaardigheid])) / 2
+            gemiddelde_scores[vaardigheid] = (
+                float(data.beoordeling[vaardigheid]) + float(data.zelfbeoordeling[vaardigheid])
+            ) / 2
         except:
             gemiddelde_scores[vaardigheid] = 0
 
-for profiel in profielen_data:
-    score = 0
-    totaal_gewicht = 0
-    # HIER: zet JSON-string om naar dict indien nodig
-    vaardigheden = (
-        json.loads(profiel["vaardigheden"])
-        if isinstance(profiel["vaardigheden"], str)
-        else profiel["vaardigheden"]
-    )
-    for vaardigheid, gewicht in vaardigheden.items():
-        vaardigheid_score = gemiddelde_scores.get(vaardigheid, 0)
-        score += vaardigheid_score * gewicht
-        totaal_gewicht += gewicht
+    profiel_scores = []
 
+    for profiel_naam, vaardigheden in profielen_data.items():
+        score = 0
+        totaal_gewicht = 0
+        for vaardigheid, gewicht in vaardigheden.items():
+            vaardigheid_score = gemiddelde_scores.get(vaardigheid, 0)
+            score += vaardigheid_score * gewicht
+            totaal_gewicht += gewicht
         matchscore = score / totaal_gewicht if totaal_gewicht else 0
-        profiel_scores.append({"profiel": profiel["profiel"], "score": round(matchscore, 2)})
+        profiel_scores.append({"profiel": profiel_naam, "score": round(matchscore, 2)})
 
     profiel_scores.sort(key=lambda x: x["score"], reverse=True)
     top_3 = profiel_scores[:3]
@@ -64,3 +60,4 @@ for profiel in profielen_data:
         "advies": advies,
         "matchscore": top_3[0]["score"]
     }
+
