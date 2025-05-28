@@ -1,15 +1,11 @@
-import { useNavigate } from 'react-router-dom';
-const navigate = useNavigate();
-
-// Na succesvol inloggen
-navigate('/dashboard');
-
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function Login() {
   const [formData, setFormData] = useState({ email: '', password: '' });
   const [error, setError] = useState('');
   const [success, setSuccess] = useState('');
+  const navigate = useNavigate();
 
   const handleChange = (e) => {
     setFormData(prev => ({ ...prev, [e.target.name]: e.target.value }));
@@ -33,8 +29,9 @@ function Login() {
       const data = await response.json();
 
       if (response.ok) {
-        setSuccess('Succesvol ingelogd!');
         localStorage.setItem('token', data.access_token);
+        setSuccess('Succesvol ingelogd!');
+        navigate('/dashboard'); // ✅ navigeert na succesvol inloggen
       } else {
         setError(data.detail || 'Inloggen mislukt');
       }
