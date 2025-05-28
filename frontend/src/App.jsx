@@ -6,6 +6,7 @@ import Speler from './pages/Speler';
 import Analyse from './pages/Analyse';
 import Team from './pages/Team';
 import Register from './pages/Register';
+import Login from './pages/Login';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/analyse" element={<Analyse />} />
         <Route path="/team" element={<Team />} />
         <Route path="/Register" element={<Register />} />
+        <Route path="/Login" element={<Login />} />
       </Routes>
     </Router>
   );
