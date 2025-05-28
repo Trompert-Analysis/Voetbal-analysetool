@@ -45,17 +45,20 @@ def bereken_matchscore(data: InputData):
         matchscore = score / totaal_gewicht if totaal_gewicht else 0
         profiel_scores.append({"profiel": profiel_naam, "score": round(matchscore, 2)})
 
-    # Sorteren en top/bottom bepalen
     profiel_scores.sort(key=lambda x: x["score"], reverse=True)
     top_3 = profiel_scores[:3]
     bottom_3 = profiel_scores[-3:]
 
-    advies = (
-        "🏆 Top 3 best passende profielen:\n"
-        + "\n".join([f"  {i+1}. {p['profiel']} – Score: {p['score']}" for i, p in enumerate(top_3)])
-        + "\n\n🔻 Laagst scorende 3 profielen:\n"
-        + "\n".join([f"  {i+1}. {p['profiel']} – Score: {p['score']}" for i, p in enumerate(bottom_3)])
-    )
+    # Uitlijning bepalen
+    max_len = max(len(p["profiel"]) for p in top_3 + bottom_3)
+
+    advies = "🏆 Top 3 best passende profielen:\n"
+    for i, p in enumerate(top_3, 1):
+        advies += f"  {i}. {p['profiel'].ljust(max_len)} – Score: {p['score']}\n"
+
+    advies += "\n🔻 Laagst scorende 3 profielen:\n"
+    for i, p in enumerate(bottom_3, 1):
+        advies += f"  {i}. {p['profiel'].ljust(max_len)} – Score: {p['score']}\n"
 
     return {
         "advies": advies,
