@@ -32,14 +32,20 @@ def bereken_matchscore(data: InputData):
         except:
             gemiddelde_scores[vaardigheid] = 0
 
-    profiel_scores = []
-    for profiel in profielen_data:
-        score = 0
-        totaal_gewicht = 0
-        for vaardigheid, gewicht in profiel["vaardigheden"].items():
-            vaardigheid_score = gemiddelde_scores.get(vaardigheid, 0)
-            score += vaardigheid_score * gewicht
-            totaal_gewicht += gewicht
+for profiel in profielen_data:
+    score = 0
+    totaal_gewicht = 0
+    # HIER: zet JSON-string om naar dict indien nodig
+    vaardigheden = (
+        json.loads(profiel["vaardigheden"])
+        if isinstance(profiel["vaardigheden"], str)
+        else profiel["vaardigheden"]
+    )
+    for vaardigheid, gewicht in vaardigheden.items():
+        vaardigheid_score = gemiddelde_scores.get(vaardigheid, 0)
+        score += vaardigheid_score * gewicht
+        totaal_gewicht += gewicht
+
         matchscore = score / totaal_gewicht if totaal_gewicht else 0
         profiel_scores.append({"profiel": profiel["profiel"], "score": round(matchscore, 2)})
 
