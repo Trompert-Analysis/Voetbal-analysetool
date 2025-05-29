@@ -20,7 +20,7 @@ function Login() {
       const response = await fetch('https://voetbal-analysetool.onrender.com/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: new URLSearchParams({
+        body: JSON.stringify({
           username: formData.email,
           password: formData.password
         }),
